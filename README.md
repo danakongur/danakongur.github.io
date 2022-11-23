@@ -1,2 +1,2 @@
-# danakongur.github.io
-Danakongur website
+# Heimasíða Konungs Danmerkur (ég)
+Enjoy!
