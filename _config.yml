@@ -37,7 +37,7 @@ github_username:  jekyll
 domain: danakongur.github.io
 url: https://danakongur.github.io
 # Build settings
-theme: minima
+
 plugins:
   - jekyll-feed
 

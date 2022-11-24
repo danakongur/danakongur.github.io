@@ -7,10 +7,11 @@ lang: is
 
 
 {% for project in site.projects %}
-  <h2>
-    <a href="{{ project.url }}">
-      {{ project.title }}
-    </a>
-  </h2>
-  <p>{{ project.content }}</p>
+  {% if project.lang == "is" %}
+    <h2>
+      <a href="{{ project.url }}">
+        {{ project.title }}
+      </a>
+    </h2>
+  {% endif %}
 {% endfor %}

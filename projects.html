@@ -6,10 +6,11 @@ lang: en
 
 
 {% for project in site.projects %}
-  <h2>
-    <a href="{{ project.url }}">
-      {{ project.title }}
-    </a>
-  </h2>
-  <p>{{ project.content }}</p>
+  {% if project.lang == "en" %}
+    <h2>
+      <a href="{{ project.url }}">
+        {{ project.title }}
+      </a>
+    </h2>
+  {% endif %}
 {% endfor %}

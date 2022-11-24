@@ -9,6 +9,13 @@
 </head>
 <body>
     <header>
+        
+        {% if page.lang == "en" %}
+            <h1 class="sitetitle">MY BEAUTIFUL WEBSITE</h1>
+        {% elsif page.lang == "is" %}
+            <h1 class="sitetitle">FALLEGA VEFSÍÐAN MÍN</h1>
+        {% endif %}
+        
         <div class="nav">
             {% include navigation.html %}
         </div>
