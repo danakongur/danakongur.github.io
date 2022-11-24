@@ -1,0 +1,15 @@
+---
+title: Projects
+layout: default
+lang: en
+---
+
+
+{% for project in site.projects %}
+  <h2>
+    <a href="{{ project.url }}">
+      {{ project.title }}
+    </a>
+  </h2>
+  <p>{{ project.content }}</p>
+{% endfor %}
