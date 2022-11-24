@@ -1,6 +1,14 @@
 
 <nav>
+  {% if page.lang == "en" %}
     {% for item in site.data.nav %}
       <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{%else%}class="navlink"{% endif %}>{{ item.name }}</a>
     {% endfor %}
+  {% elsif page.lang == "is" %}
+    {% for item in site.data.navis %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{%else%}class="navlink"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  {% else %}
+    <p>Something failed</p>
+  {% endif %}
 </nav>

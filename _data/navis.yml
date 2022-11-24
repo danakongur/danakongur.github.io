@@ -1,0 +1,8 @@
+- name: Heim
+  link: /is
+- name: Um mig
+  link: /is/about
+- name: Verkefni
+  link: /is/projects
+- name: Innlegg
+  link: /is/posts
