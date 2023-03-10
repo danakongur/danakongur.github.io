@@ -9,11 +9,11 @@
 </head>
 <body>
     <header>
-        
+        <!-- In case website needs different titles depending on language -->
         {% if page.lang == "en" %}
-            <h1 class="sitetitle">MY BEAUTIFUL WEBSITE</h1>
+            <h1 class="sitetitle">Steinþór Bjarni</h1>
         {% elsif page.lang == "is" %}
-            <h1 class="sitetitle">FALLEGA VEFSÍÐAN MÍN</h1>
+            <h1 class="sitetitle">Steinþór Bjarni</h1>
         {% endif %}
         
         <div class="nav">
@@ -26,7 +26,7 @@
     </div>
 
     <footer>
-        <p>{% include name.html %} @ 2022</p>
+        <p>{% include name.html %} @ 2023</p>
     </footer>
 </body>
 </html>
